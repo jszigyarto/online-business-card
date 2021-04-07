@@ -10,8 +10,10 @@
 /* Pozicionálás */
 
 .profile-card {
-  width: 480px;
+  width: 600px;
+  height: 60%;
   max-width: calc(100vw - 10px);
+  
 }
 
 body {
@@ -27,7 +29,7 @@ body {
 }
 
 .head, .content {
-  width: 90%;
+  width: 80%;
   margin: 0 auto;
 }
 
@@ -35,18 +37,22 @@ body {
   text-align: justify;
 }
 
-.name {
-  text-transform:uppercase;
+.name-headline {
+  margin-top: 5%
+}
+
+h1 {
+  text-transform: uppercase;
 }
 
 img {
-  width: 120px;
-  height: 120px;
-  border-radius: 50%;
+  width: 180px;
+  height: 180px;
+  border-radius: 5%;
 }
 
 .profile-image {
-  margin-top: -60px;
+  margin-top: -100px;
 }
 
 /* Contact links */
@@ -60,7 +66,7 @@ li {
 }
 
 .head, .about {
-  margin-bottom: 10%;
+  margin-bottom: 5%;
 }
 
 .content {
@@ -68,7 +74,7 @@ li {
 }
 
 body {
-  background: url('http://i.imgur.com/9kh3G8L.jpg') no-repeat center center fixed;
+  background: url(assets/above-atmosphere-clouds-flight-37728.jpg) no-repeat center center fixed;
   background-size: cover;
 }
 
@@ -85,32 +91,35 @@ img {
 }
 
 .content {
-  border-top: 1px solid hsla(0, 0%, 30%, .8);
+  border-top: 1px solid #c71585;
 }
 
 img:hover {
   transform: scale(1.1);
   transition: all 0.5s ease-in-out;
-  filter: grayscale(20%);
+  filter: grayscale(10%);
 }
 
 a {
   color: #696969;
 }
 
-#twitter:hover {
+#linkdin:hover {
   color: #c71585;
+  transform: scale(1.1);
   transition: all 0.5s ease-in-out;
 }
 
 #instagram:hover {
   color: #c71585;
+  transform: scale(1.1);
   transition: all 0.5s ease-in-out;
 }
 
-#behance:hover {
+#facebook:hover {
   color: #c71585;
-  transition: all 1s ease-in-out;
+  transform: scale(1.1);
+  transition: all 0.5s ease-in-out;
 }
 
 em {
